@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deputados</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <link href="css/sweetalert2.min.css" rel="stylesheet">
+    <link href="css/w3.css" rel="stylesheet"> -->
+</head>
+<body class="w3-teal">
+
+<!-- <div class="w3-container">
+    <div class="w3-card-4 w3-display-middle w3-border w3-round w3-hover-shadow w3-center">
+      <header class="w3-container w3-teal">
+        <h1 id="Nome" >Carregando...</h1>
+        <hr><hr><hr><hr>
+      </header>
+      <div class="w3-container">
+            <img id="UrlFoto" src="" alt="Pokemon image" style="cursor: pointer;" class="w3-display-middle">
+      </div>
+      <footer class="w3-container w3-teal">
+        <div class="w3-center">
+            <div class="w3-bar">
+            <button id="anterior" class="w3-button w3-hover-red w3-round-large">Anterior</button>
+            <button id="proximo" class="w3-button w3-hover-red w3-round-large">Proximo</button>
+            </div>
+        </div>
+      </footer>
+    </div>
+
+    
+  </div> -->
+  <h1>Lista de Deputados</h1>
+    <ul id="deputados-lista"></ul>
+
+    <!-- Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <div>
+          <img id="foto" alt="Foto do Deputado">
+          <p>Nome: <span id="nome"></span></p>
+          <p>Sexo: <span id="sexo"></span></p>
+          <p>Idade: <span id="idade"></span></p>
+          <p>Partido: <span id="partido"></span></p>
+          <p>Email: <span id="email"></span></p>
+          <p>Estado: <span id="estado"></span></p>
+      </div>
+      <div>
+          <h3>Endereço</h3>
+          <p>CEP: <span id="cepDisplay"></span></p>
+          <input type="text" id="cep" placeholder="Digite o CEP" maxlength="8">
+          <p>Rua: <span id="rua"></span></p>
+          <p>Cidade: <span id="cidade"></span></p>
+          <p>Estado: <span id="estadoEndereco"></span></p>
+          <p>Latitude: <span id="latitude"></span></p>
+          <p>Longitude: <span id="longitude"></span></p>
+          <button id="salvar">Salvar</button>
+      </div>
+  </div>
+</div>
+
+<ul id="deputados-lista"></ul>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
