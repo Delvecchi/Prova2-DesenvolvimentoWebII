@@ -24,7 +24,7 @@ Clone o repositório e certifique-se de ter o Composer instalado. Em seguida, ex
 
 O projeto utiliza o Composer para carregar automaticamente as classes. Certifique-se de que o autoload está configurado corretamente no arquivo composer.json:
 
-```json
+json
 "autoload": {
     "psr-4": {
         "App\\": "Backend/"
@@ -70,7 +70,7 @@ Clone o repositório e certifique-se de ter o Composer instalado. Em seguida, ex
 
 O projeto utiliza o Composer para carregar automaticamente as classes. Certifique-se de que o autoload está configurado corretamente no arquivo composer.json:
 
-```json
+json
 "autoload": {
     "psr-4": {
         "App\\": "Backend/"
